@@ -3,7 +3,7 @@ import board
 from adafruit_pyportal import PyPortal
 
 # Set up where we'll be fetching data from
-DATA_SOURCE = "https://hanselsugars.azurewebsites.net/api/v1/entries.json?count=1"
+DATA_SOURCE = "https://NIGHTSCOUTSITE/api/v1/entries.json?count=1"
 BG_VALUE = [0, 'sgv']
 BG_DIRECTION = [0, 'direction']
 
