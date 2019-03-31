@@ -52,11 +52,11 @@ pyportal = PyPortal(url=DATA_SOURCE,
                     text_font=cwd+"/fonts/Arial-Bold-24-Complete.bdf",
                     text_position=((90, 120),  # VALUE location
                                    (140, 160)), # DIRECTION location
-                    text_color=(0x000000,  # quote text color
-                                0x000000), # author text color
-                    text_wrap=(35, # characters to wrap for quote
-                               0), # no wrap for author
-                    text_maxlen=(180, 30), # max text size for quote & author
+                    text_color=(0x000000,  # sugar text color
+                                0x000000), # direction text color
+                    text_wrap=(35, # characters to wrap for sugar
+                               0), # no wrap for direction
+                    text_maxlen=(180, 30), # max text size for sugar & direction
                     text_transform=(text_transform_bg,text_transform_direction),
                    )
 
