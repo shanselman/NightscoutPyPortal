@@ -4,9 +4,11 @@
 # keep it a secret.
 
 secrets = {
-    'ssid' : 'YOUR SSID',             # Keep the two '' quotes around the name
-    'password' : 'YOUR PASSWORD',         # Keep the two '' quotes around password
-    'timezone' : "America/Los_Angeles",  # http://worldtimeapi.org/timezones
-    'aio_username' : 'adafruit io username',
-    'aio_key' : 'not needed for this but your adafuit iokey',
+    'ssid' : 'XXX',             # Keep the two '' quotes around the name
+    'password' : 'XXX',         # Keep the two '' quotes around password
+    'timezone' : "Africa/Abidjan",  # http://worldtimeapi.org/timezones
+    'aio_username' : 'XXX', # free, needed for the timestamp https://io.adafruit.com/
+    'aio_key' : 'XXX', # free, needed for the timestamp https://io.adafruit.com/
+    'nightscout_url' : 'XXX', # full nightscout url where the data is collected
+    'human' : 'XXX', # The person being monitored
     }
